@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+<Files "400-questions-reponses.txt">
+Header set X-Robots-Tag "noindex, follow"
+</Files>
+</IfModule>
